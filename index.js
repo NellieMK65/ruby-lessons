@@ -12,3 +12,6 @@ delete person.first_name;
 
 Object.values(person);
 // person
+const colors = ['red', 'green', 'blue'];
+
+const modifiedColors = colors.map((color, index) => {});
