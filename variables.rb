@@ -10,7 +10,7 @@ $first_name = "Bruce"
 # CLass variable - uses (@@)
 @@movie = "Batman"
 
-# Method
+# Method - functions in JS
 def greeting
     message = "Hello #{$first_name}"
     p message
