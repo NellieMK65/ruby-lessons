@@ -2,6 +2,8 @@
 # Global - $name
 # Instance - @name
 # CLass - @@name
+#
+# Abstraction, Inheritance, Encapsulation (public, private, protected), Polymorphism
 
 class Dog
   # Captures info related to specific instances of this class
@@ -11,7 +13,7 @@ class Dog
   # Using uppercase with snake case naming convention
   NUMBER_OF_LEGS = 4
 
-  attr_accessor :legs
+  attr_reader :legs
 
   def initialize
     @@good_dogs += 1
